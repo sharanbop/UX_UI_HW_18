@@ -24,14 +24,19 @@ ul{
     margin-left: auto;
 }
 .heroImg{
-    display: inline-grid;
-    justify-content: end;
-
+    display: flex;
 }
 .content{
-    width: 500px;
+    width: 60%;
     margin: 0 auto;
+    float: inline-start;
 }
+
+.Hicopy{
+    float: inline-end;
+    width: 40%;
+}
+
 li{
     display: block;
     padding: 1%;
@@ -41,6 +46,10 @@ li{
     font-family: "new-kansas", sans-serif;
     font-weight: 800;
     font-style: normal;
+}
+.slider{
+    display: flex;
+    float: inline-end;
 }
 h1{
     width: 550px;
@@ -61,9 +70,41 @@ h3{
     font-weight: 800;
     font-style: normal;
 }
+h4{
+    font-size: 25pt;
+    font-family: "marydale", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 p{
     font-size: 18pt;
     font-family: "degular", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+.workGrid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+    align-content: center;
+    padding: 1%;
+} 
+.view{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 10px 20px;
+    background-color: rgb(41, 72, 125);
+    color: white;
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+
+
+
+
+@media only screen and (max-width: 600) {
+
 }
